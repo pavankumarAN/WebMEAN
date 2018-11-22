@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>LogIn</title>
+</head>
+<body>
+    <h1>Register</h1>
+    <form action="">
+        <label for="firstName">FirstName: <input type="text" id="firstName" required placeholder="Pavan.."></label>
+        <label for="secondName">SecondName: <input type="text" id="secondName" required placeholder="kumar.."></label>
+        <div>
+        <label for="men">Men</label>
+        <input type="radio" name="gender" id="men" required>
+        <label for="women">Women</label>
+        <input type="radio" name="gender" id="women" required>
+        <label for="other">Other</label>
+        <input type="radio" name="gender" id="other" required>
+    </div>
+        <div><label for="email">
+                Email : <input type="email" name="email" id="email" required placeholder="a@a.com">
+            </label>
+            <label for="password">
+                <!-- Password : <input type="password" name="password" id="password" minlength="5" maxlength="10" required> -->
+                <!-- instead of minlength and maxlength we can use pattern = .{5,10} and we can display our own message
+                by using title="Message" -->
+                Password : <input type="password" name="password" id="password" pattern=".{5,10}" title="Please enter password between 5 to 10 characters">
+            </label></div>
+    <div>
+            <label>BirthDay: 
+            <select name="month" id="month" required>
+                <option value="Month">Month</option>
+                <option value="jan">Jan</option>
+                <option value="Feb">Feb</option>
+                <option value="March">March</option>
+            </select>
+            <select name="day" id="day" required>
+                    <option value="day">day</option>
+                    <option value="one">1</option>
+                    <option value="two">2</option>
+                    <option value="three">3</option>
+                </select>
+                <select name="year" id="year" required>
+                        <option value="year">year</option>
+                        <option value="one">1994</option>
+                        <option value="two">1995</option>
+                        <option value="three">1996</option>
+                    </select>
+            </label>
+        </div>
+<div>        <input type="checkbox" name="agree" id="agree" required>I agree to the terms and conditions <br>
+    <input type="submit" value="Submit">
+</div>    </form>
+</body>
+</html>
