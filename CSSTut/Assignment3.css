@@ -1,0 +1,17 @@
+.imageTag {
+    width: 430px;
+    height: 430px;
+}
+table {
+    margin: auto;
+}
+
+h1 {
+    text-align:center;
+}
+
+img {
+    width: 30%;
+    float: left;
+    margin: 1.66%;
+}
