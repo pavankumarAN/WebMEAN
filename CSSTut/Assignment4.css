@@ -1,0 +1,28 @@
+body {
+    border : 20px gray solid;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 700px;
+    width: 80%;
+    font-family: "source sans pro";
+}
+h2 {
+    font-size: 2.0rem;
+}
+.date {
+    text-transform: uppercase;
+    color : skyblue;
+    letter-spacing: 0.2rem;
+}
+.firstParagraph {
+    border-left: 5px gray solid;
+    padding-left: 5px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
